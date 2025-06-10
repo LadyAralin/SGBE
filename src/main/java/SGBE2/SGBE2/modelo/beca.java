@@ -17,7 +17,7 @@ public class beca {
     private Long becaId;
     private String nombreBeca;
     private String descripcion;
-    private String fechaPostulacion;
+    private String fechaInscripciones;
 
     public static Optional<beca> map(Object o) {
         throw new UnsupportedOperationException("Unimplemented method 'map'");

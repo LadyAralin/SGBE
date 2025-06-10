@@ -18,10 +18,10 @@ public class postulacion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idPostulacion;
-    private beca becca;
-    private Long idUsuario;
+    private String nombreBecca;
+    private String nombreUsuario;
     private String estadoSolicitud;
-    private String comentario;
+    private String fechaPostulacion;
 
     public static Optional<postulacion> map(Object o) {
         throw new UnsupportedOperationException("Unimplemented method 'map'");
